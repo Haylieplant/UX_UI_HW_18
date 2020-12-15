@@ -1,0 +1,80 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: 5px center;
+} 
+
+.logo{ 
+    width: 5px;
+    height: 5px;
+    padding: 1%;
+    text-align: start;
+}
+    
+.nav{
+    vertical-align: center;
+    width: 100%;
+  padding: 5px;
+}
+  
+
+ul{   width: 100%;
+       margin-left: auto;
+}
+ 
+.heroImg{
+    height: 100px;
+    padding: 5px; 
+    text-align: center;  
+ }
+body{
+   background-color: rgba(255, 157, 142, 0.3);
+
+}        
+.content{
+    width: 200pm;
+    margin: 200px;
+}
+ p{
+     font-family: Josefin Sans light;
+     font-size: 36px;
+     width: 800px;
+     margin: 500px;
+     text-align: middle;
+
+ }  
+.button{
+    text-align: right;
+}
+
+.flexContainer {
+    display: flex;
+    
+}
+.flexContainer div {
+            width: 33%;
+            
+    }
+.workGrid {
+    display: grid;
+}
+
+footer{  
+    vertical-align: text-bottom;
+    background-color: FF9D8E;
+    padding: 0;
+}
+
+   ul{
+    display: inline-block; 
+    vertical-align: bottom;
+    padding: 0;
+}  
+@media only screen and (max-width:600){
+    .flexContainer {
+        flex-direction: column;
+        }
+        .flexContainer div {
+            width: 100%;
+        }
+
+}
